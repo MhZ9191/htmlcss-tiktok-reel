@@ -31,6 +31,9 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
+	display:flex;
+	color:white;
+	font-weight: bold;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
@@ -81,3 +84,22 @@ da rimuovere una volta concluso
 }
 
 /* --------------------- */
+
+.lr{
+	padding: 0 16px;
+}
+
+
+.nav-items{
+	display:flex;
+}
+
+.nav-item{
+	padding:0 10px;
+}
+
+.nav-item:nth-child(1),
+.nav-item:nth-child(2){
+	color:rgba(255, 255, 255, 0.596);
+}
+
